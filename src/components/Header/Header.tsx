@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header id="header" className="Header">
       <Link to="/" className="Header__logo">
-        abratsiuk
+        Hotel Booking (admin)
       </Link>
 
       <ul className="Header__menu">

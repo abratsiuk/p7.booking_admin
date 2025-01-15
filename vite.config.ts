@@ -8,7 +8,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@use '/src/styles/variables.scss' as *;`,
+        additionalData: `
+        $base-path: '/p7.booking_admin/';
+        @use '/src/styles/variables.scss' as *;`,
       },
     },
   },
