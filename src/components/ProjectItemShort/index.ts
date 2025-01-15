@@ -1,1 +1,0 @@
-export { ProjectItemShort } from './ProjectItemShort';
