@@ -1,0 +1,41 @@
+.Header {
+  height: $Header-height;
+  background-color: $Header-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  font-size: $Header-font-size;
+  &__logo {
+    padding: 0 10rem;
+    color: $Header-font-color;
+    text-decoration: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0.5rem;
+      left: 2rem;
+      width: 6rem;
+      height: 6rem;
+      background: $Header-color url('../../assets/images/logo.webp') no-repeat;
+      background-position: center;
+      border-radius: 50%;
+    }
+  }
+
+  &__menu {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__menuItem {
+    color: $Header-font-color;
+    font-size: $Header-font-size;
+    margin-right: 2rem;
+    &:last-of-type {
+      margin-right: 0rem;
+    }
+  }
+}

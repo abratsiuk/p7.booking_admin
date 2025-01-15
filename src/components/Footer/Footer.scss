@@ -1,0 +1,16 @@
+.Footer {
+  height: $Footer-height;
+  background-color: $Header-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: $Footer-font-color;
+  font-family: 'Merriweather', serif;
+  font-size: $Footer-font-size;
+  &__repo {
+    color: $Footer-font-color;
+    font-family: 'Merriweather', serif;
+    font-size: $Footer-font-size;
+  }
+}
