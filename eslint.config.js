@@ -18,7 +18,7 @@ export default [
       sourceType: 'module',
       globals: globals.browser,
     },
-    settings: { react: { version: '18.2' } },
+    settings: { react: { version: '18.3.1' } },
     plugins: {
       '@typescript-eslint': typescript,
       react,
