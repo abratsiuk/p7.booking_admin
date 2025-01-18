@@ -85,4 +85,13 @@ https://tinypng.com/
 
 =========================
 
+yarn cache clean
+//delete node_modules
+yarn
 
+-----
+yarn stylelint  
+yarn lint
+
+yarn stylelint  --fix
+yarn lint --fix
